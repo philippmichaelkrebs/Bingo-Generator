@@ -46,7 +46,7 @@ def list_to_csv(data:list[str], sep=';') -> str:
         counter += 1
     return csv_string
 
-if "__main__":
+if "__main__" == __name__:
 
     iterations = 32
     seperator = ';'
